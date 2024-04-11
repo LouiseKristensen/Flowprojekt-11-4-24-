@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/stjernehimmel.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 14, 102, 100)), url(images/stjernehimmel.jpg);
+    color: white;
+}
+
+.intro{
+    padding-bottom: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.watch{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.overskrift{
+    font-size: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.film{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.tekst{
+    display: none;
+}
+
+.card{
+    margin: 20px 5px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.btn-primary{
+    background-color: darkblue;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(17, 82, 195);
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+}
+
+.pagination{
+    margin: 50px 0;
+}
+
+.page-link{
+    color: black;
+}
+
+footer{
+    background-color: #21252b;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked {
+    color: orange;
+}
+
+@media screen and (min-width: 720px){
+    .card{
+        width: auto;
+        min-height: 550px;
+    }
+   
+    .overskrift{
+        font-size: 80px;
+        padding-top: 20px;
+    }
+
+    .film{
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .tekst{
+        display: block;
+    }
+
+    .tekstto{
+        display: none;
+    }
+
+    .overskrift{
+        padding-bottom: 30px;
+    }
+}
